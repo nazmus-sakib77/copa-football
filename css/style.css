@@ -1,0 +1,464 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    line-height: 1.6;
+    
+    color: #6C6C6C;
+   
+}
+
+/* -----------------
+header style start--
+--------------------  */
+.header{
+    background-color: #2D25A0;
+    padding: 24px 120px 0 156px;
+}
+
+.navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.toggle{
+    background-image: url(../images/toggle.jpg);
+    width: 40px;
+    height: 40px;
+    display: none;
+
+}
+.manu{
+
+}
+.manu ul{
+    display: flex;
+    
+    padding: 0;
+}
+.manu ul li{
+    list-style: none;
+    margin: 24px;
+    margin-top: 0;
+    margin-left: 0;
+}
+.manu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+/* .manu ul li a:hover{
+    text-decoration: none;
+    color: #E02C6D;
+} */
+/* manu btn  */
+.manu-btn{
+    margin: 20px;
+    margin-top: 0;
+    align-items: center;
+    padding: 0;
+}
+.manu-btn a{
+    color: white;
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 12px 20px;
+}
+.manu-btn a:hover{
+
+    background-color: #c5064c;
+}
+.manu-btn a i{
+   margin-right: 20px;
+}
+.manu-btn a:hover i{
+    margin-right: 0px;
+    margin-left: 20px;
+    transition: 1s;
+ }
+ 
+
+
+
+/* -----------------
+header style end--
+--------------------  */
+
+/* -----main style end-----  */
+main {
+ 
+}
+/* ---main style end-- */
+
+/* -----------------
+banner style start--
+--------------------  */
+.banner{
+    background-color: #2D25A0;
+    padding: 50px 124px 100px 156px;
+
+}
+.banner-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content{
+    
+position: relative;
+    
+padding-top: 80px;
+    
+width: 100%;
+}
+.title{
+    
+    position: relative;
+    margin: 0;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+.live-btn{
+    color: white;
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 12px 24px;
+    box-shadow: 0px 0px 13px -1px rgba(110,78,78,1);
+}
+.live-btn:hover{
+ background-color: #c5064c;
+}
+
+.live-btn i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.live-btn:hover i{
+    margin-left: 20px;
+    margin-right: 0;
+    transition: 1s;
+ }
+
+
+
+/* banner img style start  */
+.banner-img{
+    width: 100%;
+    justify-content: end;
+}
+.banner-img img{
+    position: relative;
+    width: 100%;
+}
+
+@keyframes ball-kick {
+    from {top: -410px;}
+    to {left: -560px;
+    transform: scale(0.1);
+    background-image: url(../images/goal.png);
+    }
+}
+.main-ani .a-football >img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: -343px;
+    left: 38px;
+}
+
+.main-ani:hover .football{
+    animation: ball-kick 0.9s ease-in 0.5ms 1 ;
+}
+
+/* -----------------
+banner style end--
+--------------------  */
+
+/* -----------------
+img-gallery style end--
+--------------------  */
+.img-gallery{
+   margin: 80px 120px 100px 120px;
+}
+.players{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-row-gap: 20px;
+   
+   
+}
+.player{
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 13px -7px rgb(109, 109, 109);
+    background-color: #ffff;
+    overflow: hidden;
+
+    
+
+}
+.player img{
+    width: 100%;
+    
+}
+.player:hover{
+    margin: 10px;
+    padding: 15px;
+    transform: scale(1.1);
+    transition: .5s;
+    
+    
+}
+.player-name{
+
+}
+.player-info{
+
+}
+/* -----------------
+img-gallery style end--
+--------------------  */
+/* -----------------
+highlights style start--
+--------------------  */
+
+.highlights{
+    
+   margin: 80px 120px 100px 120px;
+}
+.high-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.high-title{padding-right: 128px;}
+.light-title{
+
+font-size: 42px;
+
+margin: 0;
+}
+.high-info{
+    margin-bottom: 40px;
+}
+.high-img{
+
+}
+
+.high-btn{
+    color: white;
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 12px 28px;
+    box-shadow: 0px 0px 13px -5px rgba(110,78,78,1);
+}
+.high-btn:hover{
+
+    background-color: #c5064c;
+}
+.high-btn i{
+    margin-left: 10px;
+    margin-right: 9px;
+}
+.high-btn:hover i{
+    margin-left: 19px;
+    margin-right: 0px;
+    transition: 1s;
+ }
+ .high-img img{
+    width: 100%;
+  }
+/* -----------------
+highlights style end--
+--------------------  */
+
+/* most-popular section start  */
+.most-popular{
+    padding: 0px 120px 120px 100px ;
+    }
+    .popular-content{
+    
+width: 80%;
+    
+text-align: center;
+    
+margin: 0 auto;
+    
+margin-bottom: 50px;
+    }
+    .popular-title{
+    
+    font-size: 38px;
+    
+    color: #4e4e4e;
+    }
+    .popular-info{
+    
+    font-size: 16px;
+    
+    line-height: 1.6;
+    }
+    .popular-players{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    margin-left: 0px;
+    }
+    .popular-palyer{
+     background-color: #ffff;
+display: block;
+     
+overflow: hidden;
+     
+box-shadow: 0px 0px 16px -6px;
+     
+transition: transform .6s;
+     
+border-radius: 12px;
+     
+padding: 11px;
+    }
+    .popular-palyer:hover {
+         transform: scale(1.1);
+         
+         transition: transform .6s ;
+       }
+     #img-mar{
+    
+    margin-left: 25px;
+    }
+     #img3-mar{
+        
+    margin-left: 22px;
+    }
+    .popular-palyer img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    transition: transform .6s;
+    border-radius: 10px;
+    }
+    .name-title{
+        font-size: 28px;
+        color: black;
+        text-align: center;
+        
+        margin-bottom: 10px;
+    }
+    
+    
+    /* most-popular section end  */
+
+    /* -----------------
+copa-footblall-2021 style start--
+--------------------  */
+
+.copa-football{
+    
+    margin: 80px 120px 100px 120px;
+ }
+ .copa-content{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ }
+ .copa-img{
+ 
+}
+ .copa-title{padding-left: 128px;}
+ .copa-name{
+ 
+ font-size: 42px;
+ 
+ margin: 0;
+ }
+ .copa-info{
+     margin-bottom: 40px;
+ }
+
+ 
+ .copa-btn{
+     color: white;
+     text-decoration: none;
+     background-color: #E02C6D;
+     padding: 12px 28px;
+     box-shadow: 0px 0px 13px -5px rgba(110,78,78,1);
+ }
+ .copa-btn:hover{
+ 
+     background-color: #c5064c;
+ }
+ .copa-btn i{
+     margin-left: 10px;
+     margin-right: 9px;
+ }
+ .copa-btn:hover i{
+     margin-left: 19px;
+     margin-right: 0px;
+     transition: 1s;
+  }
+  .copa-img img{
+     width: 100%;
+   }
+      /* -----------------
+copa-footblall-2021 style end--
+--------------------  */
+/* -----------------
+footer style start--
+--------------------  */
+.footer{
+   padding: 0 175px;
+}
+.footer-content{
+   justify-content: center;
+}
+.football{
+    text-align: center;
+}
+.football img{
+    width: 40%;
+}
+/* social link style  */
+.social-media-link{
+    text-align: center;
+}
+.link{
+    font-size: 19px;
+    margin: 0 7px;
+}
+.soial-icon{
+    
+    width: 26px;
+    color: #E02C6D;
+    background-color: #dedede;
+    border-radius: 13px;  
+    padding: 5px 2px;
+}
+.soial-icon:hover{
+    
+    width: 26px;
+    color: #E02C6D;
+    background-color: transparent;
+    transform: scale(1.5);
+    
+  
+}
+/* copy-right style  */
+.copy-right{
+    text-align: center;
+}
+.right{
+    font-size: 18px;
+}
+/* -----------------
+footer style end--
+--------------------  */
+
+
+
+
+
+

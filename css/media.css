@@ -1,0 +1,919 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    body{
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    p{
+        color: #6C6C6C;
+        line-height: 1.6;
+    }
+    
+    /* -----------------
+    header style start--
+    --------------------  */
+    .header{
+        background-color: #2D25A0;
+        padding: 10px 31px;
+        position: relative;
+    }
+    .toggle{
+        background-image: url(../images/toggle.jpg);
+        width: 40px;
+        height: 40px;
+        display: block;
+        background-repeat: no-repeat;
+        padding-right: 88px;
+    }
+    .navber{
+        display: flex;
+        align-items: center;
+        padding: 23px -13px 0 18px;
+    }
+    .manu{
+    
+display: none;
+    }
+    .manu ul{
+        display: flex;
+        
+        padding: 0;
+    }
+    .manu ul li{
+        list-style: none;
+        margin: 24px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .manu ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+    .manu-btn a:hover i {
+       margin-left: 0;
+       margin-right: 0;
+    }
+    
+    /* .manu ul li a:hover{
+        text-decoration: none;
+        color: #E02C6D;
+    } */
+    /* manu btn  */
+    .manu-btn{
+        margin: 3px;
+        margin-top: 0;
+        align-items: center;
+        padding: 0;
+    }
+    .manu-btn a{
+        color: white;
+        text-decoration: none;
+        background-color: #E02C6D;
+        padding: 7px 16px;
+        font-size: 14px;
+    }
+    .manu-btn a i{
+       margin-right: 7px;
+       margin-left: 3px;
+    }
+    
+     
+    
+    
+    
+    /* -----------------
+    header style end--
+    --------------------  */
+    
+    /* -----main style end-----  */
+    main {
+    overflow: hidden;
+    }
+    /* ---main style end-- */
+    
+    /* -----------------
+    banner style start--
+    --------------------  */
+    .banner{
+        background-color: #2D25A0;
+        padding: 0px 0px 0px 1px;
+    }
+    .banner-content{
+        padding: 43px 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .content{
+        
+position: relative;
+        
+padding-top: 76px;
+        
+padding: 0px;
+        
+width: 100%;
+        
+margin-bottom: 53px;
+    }
+    .title{
+        
+position: relative;
+        
+margin: 0;
+        
+font-size: 37px;
+        
+color: white;
+        
+font-weight: 700;
+        
+margin-bottom: 27px;
+    }
+    .live-btn{
+        color: white;
+        text-decoration: none;
+        background-color: #E02C6D;
+        padding: 7px 9px;
+        font-size: 14px;
+        box-shadow: 0px 0px 7px -1px rgb(110 78 78);
+    }
+    .live-btn i{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    
+    
+    /* banner img style start  */
+    .banner-img{
+    }
+    .banner-img img{
+        position: relative;
+        width: 100%;
+    }
+    @keyframes ball-kick {
+        from {top: -410px;}
+        to {left: -560px;
+        transform: scale(0.1);
+        background-image: url(../images/goal.png);
+        }
+    }
+    .main-ani .a-football >img{
+        width: 59px;
+        height: 58px;
+        position: relative;
+        top: -268px;
+        left: 38px;
+    }
+    
+    .main-ani:hover .football{
+        animation: ball-kick 0.9s ease-in 0.5ms 1 ;
+    }
+    
+    /* -----------------
+    banner style end--
+    --------------------  */
+    /* -----------------
+    banner style end--
+    --------------------  */
+    /* -----------------
+img-gallery style end--
+--------------------  */
+.img-gallery{
+    margin: 47px 6px 55px 6px;
+    padding: 0px 0px;
+    position: relative;
+ }
+ .players{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+ }
+ .player{
+     margin: 10px;
+     padding: 12px;
+     box-shadow: 0px 0px 13px -7px rgb(109, 109, 109);
+     background-color: #ffff;
+     overflow: hidden;
+ }
+ .player img{
+     width: 100%;
+     
+ }
+ .player:hover{
+     margin: 10px;
+     padding: 15px;
+     transform: scale(1.1);
+     transition: .5s;
+     
+     
+ }
+ .player-name{
+ 
+ }
+ .player-info{
+ 
+ }
+ /* -----------------
+ img-gallery style end--
+ --------------------  */
+
+/* -----------------
+highlights style start--
+--------------------  */
+
+.highlights{
+    
+margin: 0px 14px 80px 14px;
+ }
+ .high-content{
+   display: grid;
+   grid-template-columns: 1fr;
+   align-items: center;
+ }
+ .high-title{padding-right: 0px;margin-bottom: 29px;}
+ .light-title{
+ 
+font-size: 30px;
+ 
+margin: 0;
+ }
+ .high-info{
+     margin-bottom: 40px;
+ }
+ .high-img{
+ 
+ }
+ 
+ .high-btn{
+     color: white;
+     text-decoration: none;
+     background-color: #E02C6D;
+     padding: 12px 30px;
+     box-shadow: 0px 0px 13px -5px rgba(110,78,78,1);
+     position: relative;
+ }
+ .high-btn i{
+     margin-left: 10px;
+     margin-right: 0px;
+ }
+
+  .high-img img{
+     width: 100%;
+   }
+ /* -----------------
+ highlights style end--
+ --------------------  */
+ /* most-popular section start  */
+.most-popular{
+    padding: 0px 25px  20px 25px;
+    }
+    .popular-content{
+    
+width: 80%;
+    
+text-align: center;
+    
+margin: 0 auto;
+    
+margin-bottom: 50px;
+    }
+    .popular-title{
+    
+font-size: 34px;
+    
+color: #4e4e4e;
+    }
+    .popular-info{
+    
+font-size: 15px;
+    
+line-height: 1.6;
+    }
+    .popular-players{
+    
+display: grid;
+    
+grid-template-columns: 1fr;
+    
+margin-left: 0px;
+    
+grid-row-gap: 34px;
+    }
+    .popular-palyer{
+     background-color: #ffff;
+display: block;
+     
+overflow: hidden;
+     
+box-shadow: 0px 0px 16px -6px;
+     
+transition: transform .6s;
+     
+border-radius: 12px;
+     
+padding: 11px;
+    }
+    .popular-palyer:hover {
+         transform: scale(1.1);
+         
+         transition: transform .6s ;
+       }
+     #img-mar{
+    margin: 0;
+    }
+     #img3-mar{
+    margin: 0;
+    }
+    .popular-palyer img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    transition: transform .6s;
+    border-radius: 10px;
+    }
+    .name-title{
+        font-size: 28px;
+        color: black;
+        text-align: center;
+        
+        margin-bottom: 10px;
+    }
+    
+    
+    /* most-popular section end  */
+
+    /* -----------------
+copa-footblall-2021 style start--
+--------------------  */
+
+.copa-football{
+    
+margin: 80px 14px 100px 14px;
+ }
+ .copa-content{
+   display: grid;
+   grid-template-columns: 1fr;
+ }
+ .copa-img{
+ 
+}
+ .copa-title{padding: 0;}
+ .copa-name{
+ 
+font-size: 37px;
+ 
+margin: 0;
+ }
+ .copa-info{
+     margin-bottom: 38px;
+ }
+
+ 
+ .copa-btn{
+     color: white;
+     text-decoration: none;
+     background-color: #E02C6D;
+     padding: 12px 28px;
+     box-shadow: 0px 0px 13px -5px rgba(110,78,78,1);
+ }
+ .copa-btn:hover{
+ 
+     background-color: #c5064c;
+ }
+ .copa-btn i{
+     margin-left: 10px;
+     margin-right: 9px;
+ }
+
+  .copa-img img{
+     width: 100%;
+   }
+   
+      /* -----------------
+copa-footblall-2021 style end--
+--------------------  */
+ /* -----------------
+ footer style start--
+ --------------------  */
+ .footer{
+    padding: 0px 0px;
+ }
+ .footer-content{
+    justify-content: center;
+ }
+ .football{
+     text-align: center;
+ }
+ .football img{
+     width: 65%;
+ }
+ /* social link style  */
+ .social-media-link{
+     text-align: center;
+ }
+ .link{
+     font-size: 19px;
+     margin: 0 7px;
+ }
+ .soial-icon{
+     
+     width: 26px;
+     color: #E02C6D;
+     background-color: #dedede;
+     border-radius: 13px;  
+     padding: 5px 2px;
+ }
+ .soial-icon:hover{
+     
+     width: 26px;
+     color: #E02C6D;
+     background-color: transparent;
+     transform: scale(1.5);
+     
+   
+ }
+ /* copy-right style  */
+ .copy-right{
+     text-align: center;
+ }
+ .right{
+     font-size: 18px;
+    }
+ /* -----------------
+ footer style end--
+ --------------------  */
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   
+    
+    
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    body{
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    p{
+        color: #6C6C6C;
+        line-height: 1.6;
+    }
+    
+    /* -----------------
+    header style start--
+    --------------------  */
+    .header{
+        background-color: #2D25A0;
+        padding: 10px 31px;
+        position: relative;
+    }
+    .toggle{
+        background-image: url(../images/toggle.jpg);
+        width: 40px;
+        height: 40px;
+        display: block;
+        background-repeat: no-repeat;
+        padding-right: 88px;
+    }
+    .navber{
+        display: flex;
+        align-items: center;
+        padding: 23px -13px 0 18px;
+    }
+    .manu{
+    
+display: none;
+    }
+    .manu ul{
+        display: flex;
+        
+        padding: 0;
+    }
+    .manu ul li{
+        list-style: none;
+        margin: 24px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .manu ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+    .manu-btn a:hover i {
+       margin-left: 10px;
+       margin-right: 0;
+    }
+    
+    /* .manu ul li a:hover{
+        text-decoration: none;
+        color: #E02C6D;
+    } */
+    /* manu btn  */
+    .manu-btn{
+        margin: 3px;
+        margin-top: 0;
+        align-items: center;
+        padding: 0;
+    }
+    .manu-btn a{
+        color: white;
+        text-decoration: none;
+        background-color: #E02C6D;
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+    .manu-btn a i{
+       margin-right: 7px;
+       margin-left: 3px;
+    }
+    
+     
+    
+    
+    
+    /* -----------------
+    header style end--
+    --------------------  */
+    
+    /* -----main style end-----  */
+    main {
+    overflow: hidden;
+    }
+    /* ---main style end-- */
+    
+    /* -----------------
+    banner style start--
+    --------------------  */
+    .banner{
+        background-color: #2D25A0;
+        padding: 0px 0px 0px 1px;
+    }
+    .banner-content{
+        padding: 43px 34px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .content{
+        
+position: relative;
+        
+padding-top: 76px;
+        
+padding: 0px;
+        
+width: 100%;
+        
+margin-bottom: 53px;
+    }
+    .title{
+        
+position: relative;
+        
+margin: 0;
+        
+font-size: 37px;
+        
+color: white;
+        
+font-weight: 700;
+        
+margin-bottom: 27px;
+    }
+    .live-btn{
+        color: white;
+        text-decoration: none;
+        background-color: #E02C6D;
+        padding: 10px 11px;
+        font-size: 14px;
+        box-shadow: 0px 0px 7px -1px rgb(110 78 78);
+    }
+    .live-btn i{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+    
+    
+    /* banner img style start  */
+    .banner-img{
+    }
+    .banner-img img{
+        position: relative;
+        width: 100%;
+    }
+    @keyframes ball-kick {
+        from {top: -410px;}
+        to {left: -560px;
+        transform: scale(0.1);
+        background-image: url(../images/goal.png);
+        }
+    }
+    .main-ani .a-football >img{
+        width: 59px;
+        height: 59px;
+        position: relative;
+        top: -236px;
+        left: 32px;
+    }
+    
+    .main-ani:hover .football{
+        animation: ball-kick 0.9s ease-in 0.5ms 1;
+        top: -260px;
+    }
+    
+    /* -----------------
+    banner style end--
+    --------------------  */
+    
+    /* -----------------
+    banner style end--
+    --------------------  */
+    /* -----------------
+img-gallery style end--
+--------------------  */
+.img-gallery{
+    margin: 80px 20px 55px 20px;
+    padding: 0px 0px;
+    position: relative;
+ }
+ .players{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    grid-row-gap: 20px;
+ }
+ .player{
+     margin: 10px;
+     padding: 12px;
+     box-shadow: 0px 0px 13px -7px rgb(109, 109, 109);
+     background-color: #ffff;
+     overflow: hidden;
+ }
+ .player img{
+     width: 100%;
+     
+ }
+ .player:hover{
+     margin: 10px;
+     padding: 15px;
+     transform: scale(1.1);
+     transition: .5s;
+     
+     
+ }
+ .player-name{
+ 
+ }
+ .player-info{
+ 
+ }
+ /* -----------------
+ img-gallery style end--
+ --------------------  */
+
+/* -----------------
+highlights style start--
+--------------------  */
+
+.highlights{
+    
+margin: 0px 25px 80px 31px;
+ }
+ .high-content{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+ }
+ .high-title{padding-right: 12px;margin-bottom: 29px;}
+ .light-title{
+ 
+font-size: 27px;
+ 
+margin: 0;
+ }
+ .high-info{
+     margin-bottom: 25px;
+     font-size: 14px;
+ }
+ .high-img{
+ 
+ }
+ 
+ .high-btn{
+     color: white;
+     text-decoration: none;
+     background-color: #E02C6D;
+     padding: 9px 22px;
+     box-shadow: 0px 0px 13px -5px rgba(110,78,78,1);
+     position: relative;
+     font-size: 14px;
+ }
+ .high-btn i{
+     margin-left: 10px;
+     margin-right: 0px;
+ }
+
+  .high-img img{
+     width: 100%;
+   }
+ /* -----------------
+ highlights style end--
+ --------------------  */
+
+ /* most-popular section start  */
+.most-popular{
+    padding: 0px 16px  16px;
+    }
+    .popular-content{
+    
+width: 80%;
+    
+text-align: center;
+    
+margin: 0 auto;
+    
+margin-bottom: 50px;
+    }
+    .popular-title{
+    
+font-size: 34px;
+    
+color: #4e4e4e;
+    }
+    .popular-info{
+    
+font-size: 15px;
+    
+line-height: 1.6;
+    }
+    .popular-players{
+    
+display: grid;
+    
+grid-template-columns: 340px 340px;
+    
+margin-left: 0px;
+    
+grid-row-gap: 24px;
+    
+justify-content: space-around;
+    }
+    .popular-palyer{
+     background-color: #ffff;
+     display: block;
+     overflow: hidden;
+     box-shadow: 0px 0px 16px -6px;
+     transition: transform .6s;
+     border-radius: 12px;
+     padding: 11px;
+    }
+    .popular-palyer:hover {
+         transform: scale(1.1);
+         
+         transition: transform .6s ;
+       }
+     #img-mar{
+    margin: 0;
+    }
+     #img3-mar{
+    margin: 0;
+    }
+    .popular-palyer img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    transition: transform .6s;
+    border-radius: 10px;
+    }
+    .name-title{
+        font-size: 28px;
+        color: black;
+        text-align: center;
+        
+        margin-bottom: 10px;
+    }
+    
+    
+    /* most-popular section end  */
+
+    /* -----------------
+copa-footblall-2021 style start--
+--------------------  */
+
+.copa-football{
+    
+margin: 80px 17px 100px 20px;
+ }
+ .copa-content{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   justify-content: space-between;
+ }
+ .copa-img{
+ 
+}
+ .copa-title{padding: 0;padding-left: 41px;}
+ .copa-name{
+ 
+font-size: 28px;
+ 
+margin: 0;
+ }
+ .copa-info{
+     margin-bottom: 18px;
+     font-size: 13px;
+ }
+
+ 
+ .copa-btn{
+     color: white;
+     text-decoration: none;
+     background-color: #E02C6D;
+     padding: 8px 11px;
+     box-shadow: 0px 0px 13px -5px rgba(110,78,78,1);
+ }
+ .copa-btn:hover{
+ 
+     background-color: #c5064c;
+ }
+ .copa-btn i{
+     margin-left: 10px;
+     margin-right: 9px;
+ }
+
+  .copa-img img{
+     width: 100%;
+   }
+   
+      /* -----------------
+copa-footblall-2021 style end--
+--------------------  */
+ /* -----------------
+ footer style start--
+ --------------------  */
+ .footer{
+    padding: 0px 0px;
+ }
+ .footer-content{
+    justify-content: center;
+ }
+ .football{
+     text-align: center;
+ }
+ .football img{
+     width: 50%;
+ }
+ /* social link style  */
+ .social-media-link{
+     text-align: center;
+ }
+ .link{
+     font-size: 19px;
+     margin: 0 7px;
+ }
+ .soial-icon{
+     
+     width: 26px;
+     color: #E02C6D;
+     background-color: #dedede;
+     border-radius: 13px;  
+     padding: 5px 2px;
+ }
+ .soial-icon:hover{
+     
+     width: 26px;
+     color: #E02C6D;
+     background-color: transparent;
+     transform: scale(1.5);
+     
+   
+ }
+ /* copy-right style  */
+ .copy-right{
+     text-align: center;
+ }
+ .right{
+     font-size: 18px;
+    }
+ /* -----------------
+ footer style end--
+ --------------------  */
+  
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    
+}
+/* Extra large devices (Extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    
+}
+/* Extra Extra large devices (Extra Extra large desktops, 1200px and up) */
+@media (min-width: 1400px) and (max-width: 1599.98px) { 
+    
+}
